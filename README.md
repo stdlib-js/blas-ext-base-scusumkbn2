@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumkbn2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-scusumkbn2/tags). For example,
+
+```javascript
 import scusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumkbn2@v0.2.2-deno/mod.js';
 ```
 
@@ -165,7 +170,7 @@ scusumkbn2.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import scusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumkbn2@v0.2.2-deno/mod.js';
+import scusumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumkbn2@deno/mod.js';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( 0, 100 ) );
 
