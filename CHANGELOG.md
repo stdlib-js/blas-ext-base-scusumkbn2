@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-01-17)
+
+<section class="features">
+
+### Features
+
+-   [`3ca8ed8`](https://github.com/stdlib-js/stdlib/commit/3ca8ed8f2fb388fcf6890322f6f880c30fd6094e) - add C `ndarray` API and refactor `blas/ext/base/scusumkbn2` [(#4788)](https://github.com/stdlib-js/stdlib/pull/4788)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`3ca8ed8`](https://github.com/stdlib-js/stdlib/commit/3ca8ed8f2fb388fcf6890322f6f880c30fd6094e) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumkbn2` [(#4788)](https://github.com/stdlib-js/stdlib/pull/4788) _(by Muhammad Haris, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Muhammad Haris
 -   Philipp Burckhardt
 
 </section>
