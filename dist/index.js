@@ -1,9 +1,9 @@
-"use strict";var x=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var j=x(function(K,R){
-var e=require('@stdlib/number-float64-base-to-float32/dist'),k=require('@stdlib/math-base-special-abs/dist');function w(a,r,q,c,l,t,y,m){var b,o,f,u,p,i,v,s,n;if(a<=0)return t;if(o=l,f=m,r===0)for(n=0;n<a&&(i=q[o],i===0);n++)t[f]=e(r+i),o+=c,f+=y;else n=0;for(b=0,u=0;n<a;n++)i=q[o],v=e(r+i),k(r)>=k(i)?s=e(e(r-v)+i):s=e(e(i-v)+r),r=v,v=e(u+s),k(u)>=k(s)?p=e(e(u-v)+s):p=e(e(s-v)+u),u=v,b=e(b+p),t[f]=e(r+e(u+b)),o+=c,f+=y;return t}R.exports=w
-});var F=x(function(L,E){
-var _=require('@stdlib/strided-base-stride2offset/dist'),z=j();function A(a,r,q,c,l,t){return z(a,r,q,c,_(a,c),l,t,_(a,t)),l}E.exports=A
-});var g=x(function(M,T){
-var B=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),O=F(),C=j();B(O,"ndarray",C);T.exports=O
-});var D=require("path").join,G=require('@stdlib/utils-try-require/dist'),H=require('@stdlib/assert-is-error/dist'),I=g(),d,h=G(D(__dirname,"./native.js"));H(h)?d=I:d=h;module.exports=d;
+"use strict";var x=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var j=x(function(L,R){
+var e=require('@stdlib/number-float64-base-to-float32/dist'),k=require('@stdlib/math-base-special-abs/dist');function z(a,r,q,c,l,t,y,w){var b,o,f,n,p,i,v,u,s;if(a<=0)return t;if(o=l,f=w,r===0)for(s=0;s<a&&(i=q[o],i===0);s++)r=e(r+i),t[f]=r,o+=c,f+=y;else s=0;for(b=0,n=0;s<a;s++)i=q[o],v=e(r+i),k(r)>=k(i)?u=e(e(r-v)+i):u=e(e(i-v)+r),r=v,v=e(n+u),k(n)>=k(u)?p=e(e(n-v)+u):p=e(e(u-v)+n),n=v,b=e(b+p),t[f]=e(r+e(n+b)),o+=c,f+=y;return t}R.exports=z
+});var F=x(function(M,E){
+var _=require('@stdlib/strided-base-stride2offset/dist'),A=j();function B(a,r,q,c,l,t){return A(a,r,q,c,_(a,c),l,t,_(a,t)),l}E.exports=B
+});var g=x(function(P,T){
+var C=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),O=F(),D=j();C(O,"ndarray",D);T.exports=O
+});var G=require("path").join,H=require('@stdlib/utils-try-require/dist'),I=require('@stdlib/assert-is-error/dist'),J=g(),d,h=H(G(__dirname,"./native.js"));I(h)?d=J:d=h;module.exports=d;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
