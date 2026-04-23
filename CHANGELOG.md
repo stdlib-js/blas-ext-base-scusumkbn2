@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-21)
+## Unreleased (2026-04-23)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`40db61d`](https://github.com/stdlib-js/stdlib/commit/40db61db7ca352e3a55a699a010d984fc05f6144) - **chore:** follow-up fixes [(#11721)](https://github.com/stdlib-js/stdlib/pull/11721) _(by Philipp Burckhardt)_
 -   [`c5b700a`](https://github.com/stdlib-js/stdlib/commit/c5b700a07866477389f3cfde0573c303956e8e03) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base` [(#11695)](https://github.com/stdlib-js/stdlib/pull/11695) _(by Uday Kakade)_
 -   [`1a3f9ed`](https://github.com/stdlib-js/stdlib/commit/1a3f9edaa5dd7978e023dce7adeb29d5c9511880) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11380)](https://github.com/stdlib-js/stdlib/pull/11380) _(by Karan Anand)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 -   Uday Kakade
 
 </section>
